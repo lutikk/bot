@@ -42,7 +42,7 @@ async def ii33(text: str, user_id: int):
 async def ii(text):
 
     js = {
-        "key": 'escsc3ghfhbxvgnhgfgfgfb1sdsd92a1c',
+        "key": '',
         "inp": text
     }
     ss = await requests.post('https://luxuryduty.ru/api/dutys/ii/', json=js)

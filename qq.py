@@ -16,8 +16,8 @@ async def init_tortoise():
 
 async def main():
     await init_tortoise()
-    api_access_token = '54cdc1618e7fc6dc1f77e76b314ed2ae'  # токен можно получить здесь https://qiwi.com/api
-    my_login = '+79220333821'
+    api_access_token = ''  # токен можно получить здесь https://qiwi.com/api
+    my_login = ''
     s = requests.Session()
     s.headers['authorization'] = 'Bearer ' + api_access_token
     parameters = {'rows': '2'}

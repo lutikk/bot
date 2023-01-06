@@ -1,3 +1,4 @@
+"Кем я был когда писал это..?"
 import sqlite3
 
 import vk
@@ -10,7 +11,7 @@ db = sqlite3.connect('xyin.db')
 sql = db.cursor()
 
 vk = vk_api.VkApi(token=user_token)
-def_ap_cay = 'ddc68d6af3cb36a2ae1ffdfc41629b25'
+def_ap_cay = ''
 
 sql.execute("""CREATE TABLE IF NOT EXISTS user(
     vk_id INT,
